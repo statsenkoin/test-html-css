@@ -1,41 +1,59 @@
 <!DOCTYPE html>
+<!-- Це коментар -->
+
+<!-- Мова сторінки "en"-англійська, "uk"-українська, "ru"-російська -->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" /> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Короткий опис змісту допомагає пошуковим системам краще проіндексувати сторінку. -->
+    <meta name="description" content="Вивчення основ HTML5 для новачків" />
+    <!-- Підключення стилів -->
     <link rel="stylesheet" href="./styles/styles.css" />
     <title>Document</title>
   </head>
+
   <body>
     <main>
-      <h2>Document</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut sequi optio
-        nisi omnis et explicabo beatae?
-      </p>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis,
-        mollitia.
-      </p>
-      <a href=""><img src="" alt="" /></a>
-      <ul>
-        <li>
-          <a href=""><img src="" alt="" /></a>
-        </li>
-        <li>
-          <a href=""><img src="" alt="" /></a>
-        </li>
-        <li>
-          <a href=""><img src="" alt="" /></a>
-        </li>
-        <li>
-          <a href=""><img src="" alt="" /></a>
-        </li>
-        <li>
-          <a href=""><img src="" alt="" /></a>
-        </li>
-      </ul>
+      <!-- h1-p -->
+      <section>
+        <h1>qqqqqqqqqqqqq</h1>
+        <h2 hidden>aaaaaaaaaaa</h2>
+        <h3>mmmmmmmmmmmm</h3>
+      </section>
+      <!-- a link -->
+      <section>
+        <!--href - адреса сторінки, на яку перейде користувач після натискання на текст посилання.
+            target - вказує на те, в якій вкладці відкривається сторінка після кліку на посилання
+            title - додає спливаючу підказку до тексту посилання. -->
+        <a
+          href="http://google.com"
+          target="_blank"
+          title="Пошукова система Google"
+        >
+          Google.com
+        </a>
+        <!-- Посилання на завантаження файлу -->
+        <a href="/путь/к/cv.pdf" download="cv.pdf">Завантажити резюме</a>
+        <!-- Посилання на телефонний номер -->
+        <a href="tel:+14251234563">+1 (425) 123-45-63</a>
+        <!-- Посилання на адресу електронної пошти  -->
+        <a href="mailto:example@mail.ua">example@mail.ua</a>
+        <!-- Посилання на місце на сторінці -->
+        <a href="#about">About</a>
+        <h2 id="about">About</h2>
+      </section>
+      <!-- button -->
+      <section>
+        <button type="button">Відкрити модальне вікно</button>
+      </section>
+      <form>
+        <input type="text" placeholder="Логін" />
+        <input type="password" placeholder="Пароль" />
+        <textarea placeholder="Ваше повідомлення"></textarea>
+        <input type="submit" value="Надіслати" />
+      </form>
     </main>
   </body>
 </html>

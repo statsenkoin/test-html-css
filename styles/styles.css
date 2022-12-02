@@ -1,0 +1,158 @@
+/* html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+} */
+
+.box {
+  outline: dotted blue;
+  background-color: orange;
+  border: 5px solid red;
+  margin: 1px 10px;
+  padding: 5px;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+}
+
+/* ---------------------------------------------------- */
+.list {
+  display: flex;
+  margin-left: 50px;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  outline: 1px dotted red;
+}
+
+.list-item {
+  width: 270px;
+
+  margin: 10px;
+  outline: 1px dotted teal;
+}
+/* ------------------------------------------ */
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+  padding: 0;
+}
+.container {
+  /* display: flex; */
+}
+.ico {
+  /* for links */
+  display: inline-flex;
+  align-items: center;
+  /* --------- */
+
+  /* width: 44px;
+  height: 44px;
+  padding: 12px; */
+  /* margin-right: 10px; */
+
+  /* background-color: #f5f4fa; */
+  color: indigo;
+  /* border-radius: 50%; */
+}
+.a-icon {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.ico:hover {
+  color: #fff;
+  background-color: blue;
+}
+
+/* --------------------------------------------- */
+
+/* .list-item::before {
+  display: block;
+  content: '';
+  height: 80px;
+  outline: 1px dotted orangered;
+
+  background-color: #8caf46;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-image: url(../img/icons.svg#icon-twitter);
+}
+
+.list-item.icon-one::before {
+  background-image: url(../img/icons.svg#icon-twitter); 
+}*/
+/* --------------------------------------------------- */
+
+.btn {
+  display: flex;
+  width: 300px;
+  padding: 20px 40px;
+  border: 2px solid black;
+  border-radius: 3px;
+  background-color: blueviolet;
+  color: #fff;
+  text-decoration: none;
+  justify-content: center;
+}
+/* .btn-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+} */
+
+.btn:hover {
+  fill: red;
+}
+
+/* 
+.btn::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  background-color: #fff;
+  background-image: url(../img/img1.jpg);
+  background-size: cover;
+} */
+
+/* ------------------------------------------------- */
+
+.background-img-box {
+  width: 500px;
+  height: 400px;
+  margin-inline: auto;
+
+  background-color: bisque;
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5)),
+    url(https://picsum.photos/500);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  /* background-attachment: fixed; */
+}
+.head-box {
+  max-width: 1600px;
+  height: 600px;
+  margin-inline: auto;
+
+  background-color: #c4c4c4;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../img/img1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background-attachment: fixed; */
+}
